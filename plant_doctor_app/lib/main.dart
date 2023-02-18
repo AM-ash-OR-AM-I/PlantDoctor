@@ -1,7 +1,17 @@
-import 'package:camera/camera.dart';
-import 'package:flutter/material.dart';
+// import '../widgets/photo_button.dart';
+
+// import './../screens/image_search.dart';
+
+import 'package:flutter/services.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+import 'common/global_context.dart';
+import 'screens/home_screen.dart';
 
 void main() async {
+  SystemChrome.setSystemUIOverlayStyle(
+      const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
   runApp(const MyApp());
 }
 
@@ -10,92 +20,35 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
+    return NeumorphicApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  CameraController? _controller;
-  late List<CameraDescription> _cameras;
-
-  @override
-  void didChangeAppLifecycleState(AppLifecycleState state) {
-    // App state changed before we got the chance to initialize.
-    if (!(_controller?.value.isInitialized ?? false)) {
-      return;
-    }
-
-    if (state == AppLifecycleState.inactive) {
-      _controller?.dispose();
-    } else if (state == AppLifecycleState.resumed) {
-      _controller?.initialize();
-    }
-  }
-
-  @override
-  void initState() {
-    super.initState();
-    _controller = CameraController(_cameras[0], ResolutionPreset.max);
-    _controller?.initialize().then((_) {
-      if (!mounted) {
-        return;
-      }
-      setState(() {});
-    }).catchError((Object e) {
-      if (e is CameraException) {
-        switch (e.code) {
-          case 'CameraAccessDenied':
-            // Handle access errors here.
-            break;
-          default:
-            // Handle other errors here.
-            break;
-        }
-      }
-    });
-  }
-
-  @override
-  void dispose() {
-    _controller?.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    if (_controller == null || !_controller!.value.isInitialized) {
-      return const Center(
-        child: CircularProgressIndicator(),
-      ); // Otherwise, display a loading indicator.
-    }
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          // horizontal).
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            CameraPreview(_controller!),
-          ],
+      navigatorKey: navigatorKey,
+      themeMode: ThemeMode.light,
+      theme: NeumorphicThemeData(
+        baseColor: const Color(0xffedf3fa),
+        lightSource: LightSource.topLeft,
+        shadowLightColor: Colors.white,
+        textTheme: GoogleFonts.notoSansTextTheme(),
+        shadowDarkColor: const Color.fromARGB(255, 192, 205, 220),
+        iconTheme: const IconThemeData(color: Color(0xff112a42)),
+        defaultTextColor: const Color(0xff112a42),
+        appBarTheme: const NeumorphicAppBarThemeData(
+          centerTitle: true,
+          textStyle: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.w600,
+            color: Color(0xff112a42),
+          ),
         ),
+        buttonStyle: NeumorphicStyle(
+          boxShape: NeumorphicBoxShape.roundRect(BorderRadius.circular(15)),
+        ),
+        boxShape: NeumorphicBoxShape.roundRect(BorderRadius.circular(15)),
+        intensity: .9,
+        depth: 4,
       ),
+      home: const MyHomePage(),
     );
   }
 }
