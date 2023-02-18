@@ -87,6 +87,7 @@ class ResNet9(nn.Module):
         out = self.classifier(out)
         return out
 
+logging.info("Loading models")
 
 model_dict1 = torch.load('model.pth')
 model_dict2 = torch.load('plant-disease-model.pth', map_location=torch.device('cpu'))
@@ -96,7 +97,7 @@ model1.load_state_dict(state_dict=model_dict1)
 
 model2 = ResNet9(3, 38)
 model2.load_state_dict(state_dict=model_dict2)
-
+logging.info("models loaded")
 with open("labels.json", "rb") as f:
     labels = pickle.load(f)
 
