@@ -57,7 +57,7 @@ class DiseaseDetailsWidget extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Center(child: Text(imagePath.split('/').last)),
+                Center(child: Text(imagePath.split('/').last)), // TODO: Remove debug text
                 Center(
                   child: Text(
                     diseaseDetails.plantName,
@@ -100,11 +100,18 @@ class DiseaseDetailsWidget extends StatelessWidget {
                     fontSize: 14,
                   ),
                 ),
+                const SizedBox(height: 20),
+                // TODO: Add fertilizer and pesticide recommendation
+                
               ],
             ),
           );
         } else {
-          return const CircularProgressIndicator();
+          return const Center(
+              child: Padding(
+            padding: EdgeInsets.all(50.0),
+            child: CircularProgressIndicator(),
+          ));
         }
       },
     );

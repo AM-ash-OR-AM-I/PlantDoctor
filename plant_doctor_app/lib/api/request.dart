@@ -7,6 +7,10 @@ class DiseaseDetails {
   final String plantName;
   final String diseaseName;
   final String remedy;
+  final String fertilizer =
+      "Fertilizer Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever";
+
+  final fertilzerImage = "assets/images/fertilizer.jpg";
 
   DiseaseDetails({
     required this.plantName,
