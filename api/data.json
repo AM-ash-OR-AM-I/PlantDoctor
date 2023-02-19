@@ -75,7 +75,69 @@
  "potato_early_blight":{"Cause":["Potato Early Blight is caused by the fungus Alternaria solani. The fungus can survive in plant debris and soil for up to two years, making it difficult to control."]
                         "Prevention":["Crop Rotation: Rotate potato crops with other crops such as grains or legumes. This reduces the buildup of fungal spores in the soil.","Plant Resistant Varieties: Choose potato varieties that are resistant to Early Blight.","Fungicide Application: Apply fungicides before symptoms appear, and follow the recommended application rate and timing.","Maintain Good Crop Hygiene: Remove plant debris after harvest and destroy any infected plants."]
 				"Remedies":["Chlorothalonil: Apply at the first sign of symptoms and repeat every 7-10 days until harvest.","Mancozeb: Apply at the first sign of symptoms and repeat every 7-10 days until harvest."]
-					}
+					},
+"Apple_Scab":{"Causes":["The fungus that causes apple scab overwinters in infected leaves and fruit on the ground from the previous season.",
+                            "In the spring, when the temperature and humidity are high, the fungus produces spores that are carried by wind or rain to infect new leaves and fruit."],
+                  "Prevention":["Keep the orchard clean by removing and destroying any infected leaves and fruit on the ground.",
+                                "Prune the trees to improve air circulation and sunlight penetration, which can reduce humidity."],
+                  "Remedies":"Apply a fungicide spray containing propiconazole, myclobutanil, or flutriafol during the growing season to protect the fruit and leaves from infection."},
+    
+    
+    "Apple_Black_Rot":{"Causes":["Apple Black Rot is a fungal disease caused by Botryosphaeria obtusa."," It usually appears in late summer or early fall when the weather is warm and humid. The fungus infects the fruit, leaves, and stems of apple trees."],
+                  "Prevention":["Pruning - Remove any infected wood as soon as possible to prevent the disease from spreading.","Sanitation - Clean up fallen leaves and fruit from the ground as they can harbor the fungus.",
+                    "Fungicides - Apply fungicides before infection occurs and continue to use throughout the growing season as needed."],
+                  "Remedies":"Apply a fungicide spray containing propiconazole, myclobutanil, or flutriafol during the growing season to protect the fruit and leaves from infection."},
+    
+    "Apple_cedar_apple_rust":{"Causes":["Cedar Apple Rust is a fungal disease caused by Gymnosporangium juniperi-virginianae","It affects apple and crabapple trees and is commonly found in areas where there are juniper or cedar trees"],
+               "Prevention":["Plant resistant varieties - Plant apple and crabapple trees that are resistant to Cedar Apple Rust.",
+                "Pruning - Prune out any infected branches as soon as possible to prevent the disease from spreading.",
+                "Sanitation - Clean up any fallen leaves or fruit from the ground as they can harbor the fungus.",
+                "Fungicides - Apply fungicides before infection occurs and continue to use throughout the growing season as needed."],
+               "Remedies":["Myclobutanil - A systemic fungicide that can be used to control Cedar Apple Rust.","Triadimefon - A fungicide that can be used to control Cedar Apple Rust and other fungal diseases."]},
+    
+    "Cherry_Powdery_Mildew":{"Causes":["Cherry Powdery Mildew is caused by a fungal pathogen called Podosphaera clandestina",
+                                       "The disease primarily affects cherry trees, especially sour cherry varieties. The disease is most common in warm and dry conditions, especially during the summer season."],
+                  "Prevention":["Keep the orchard clean by removing and destroying any infected leaves and fruit on the ground.",
+                                "Prune the trees to improve air circulation and sunlight penetration, which can reduce humidity."],
+                  "Remedies":"Apply a fungicide spray containing propiconazole, myclobutanil, or triadimefon during the growing season to protect the fruit and leaves from infection."},
+    
+    "Corn_Cercospora_leaf":{"Causes":"Cercospora zeae-maydis is the fungus that causes Corn (Maize) Cercospora Leaf Spot. The disease can cause significant yield losses in severe cases. The disease is most common in warm and humid conditions, especially during the growing season.",
+                            "Prevention":["Crop rotation can help prevent the disease from developing and spreading.",
+                                          "Planting resistant maize varieties can also help prevent the disease.",
+                                          "Fungicide sprays can be used preventatively during the growing season, especially during warm and humid conditions."],
+                            "Remedies":"Fungicides containing triazole or strobilurin can be effective against Corn Cercospora Leaf Spot.Azoxystrobin, propiconazole, and pyraclostrobin are examples of fungicides that can be used to control the disease."},
+    
+    "Corn-maize_rust":{"Causes":"Common rust is caused by the fungus Puccinia sorghi. The disease primarily affects corn plants during warm and humid weather conditions. It can cause significant yield losses and reduce the overall quality of the corn.",
+                       "Prevention":["Planting resistant corn varieties can help prevent the disease.",
+                                     "Proper crop management practices, such as timely and effective weed control and proper fertilization, can help reduce plant stress and make them less susceptible to the disease."],
+                       "Remedies":"Fungicides containing azoxystrobin, propiconazole, or triazole can be effective against northern leaf blight."},
+    
+    "Grape_black_rot":{"Causes":"Grape Black Rot is caused by a fungus called Guignardia bidwellii. It infects the fruit, leaves, and shoots of grapevines during warm and humid weather conditions.",
+                       "Prevention":["Remove and destroy any infected plant material","Prune the grapevines to increase air circulation and sunlight penetration.",
+                        "Apply fungicides at the right time and in the right amount, as recommended by experts"]},
+    
+    "Grape_Esca_(Black_Measels)":{"Causes":"Grape Esca or Black Measles is caused by a group of fungi that infect the woody parts of grapevines, including the trunk and the roots.",
+                                  "Prevention":["Use certified planting material",
+                                  "Avoid injuring the vines during pruning or other cultural practices"]},
+    
+    "Grape_Leaf_blight(Isariopsis)":{"Causes":"Grape Leaf Blight or Isariopsis Leaf Spot is caused by a fungus called Isariopsis griseola. It infects the leaves of grapevines, especially during warm and humid weather conditions.",
+                                  "Prevention":["Use certified planting material",
+                                  "Avoid injuring the vines during pruning or other cultural practices"]},
+    
+    "Orange_Huanglongbing(Citrus_greening)":{"Causes":"Orange Huanglongbing, also known as Citrus greening, is caused by a bacterium called Candidatus Liberibacter asiaticus. This bacterium is spread by an insect called the Asian citrus psyllid.",
+                                             "Prevention":["Preventing the spread of the Asian citrus psyllid is key to preventing Huanglongbing.","This can be done by removing infected trees, using insecticides to control psyllids, and planting psyllid-resistant varieties of citrus."],
+                                             "Remedies":"There is currently no cure for Huanglongbing, but pesticides can be used to control the spread of the psyllids. Common insecticides used for this purpose include neonicotinoids, pyrethroids, and organophosphates."},
+    
+    "Peach_bacteria_spot":{"Causes":"Peach bacterial spot is caused by a bacterium called Xanthomonas arboricola pv. pruni. This bacterium can survive on plant debris and can be spread by rain, wind, and insects.",
+                           "Prevention":["Preventing peach bacterial spot involves a combination of cultural practices and chemical treatments.","Good sanitation practices, such as removing and destroying infected plant material, can help reduce the spread of the bacteria.",
+                                         "Fungicides and bactericides can also be applied preventively to protect plants from infection."],
+                           "Remedies":"Copper-based fungicides and bactericides are commonly used to control peach bacterial spot. Other options include streptomycin and oxytetracycline, which are antibiotics that can be effective against bacterial diseases."},
+    
+    "Pepper_bell_Bacteria_spot":{"Causes":"Pepper bell bacterial spot is caused by a bacterium called Xanthomonas campestris pv. vesicatoria. The bacteria can survive in plant debris and can be spread by rain, wind, and insects.",
+                                 "Prevention":["Preventing bacterial spot in pepper plants involves good sanitation practices, such as removing and destroying infected plant material.", 
+                                "Crop rotation can also be helpful in reducing the build-up of bacteria in the soil."],
+                                 "Remedies":"Copper-based fungicides and bactericides are commonly used to control bacterial spot in pepper plants. Streptomycin and oxytetracycline are also effective antibiotics for controlling the disease. It is important to rotate the use of pesticides to avoid the development of resistant strains of bacteria."}
+    
 
 
 
