@@ -80,8 +80,8 @@
                             "In the spring, when the temperature and humidity are high, the fungus produces spores that are carried by wind or rain to infect new leaves and fruit."],
                   "Prevention":["Keep the orchard clean by removing and destroying any infected leaves and fruit on the ground.",
                                 "Prune the trees to improve air circulation and sunlight penetration, which can reduce humidity."],
-                  "Remedies":"Apply a fungicide spray containing propiconazole, myclobutanil, or flutriafol during the growing season to protect the fruit and leaves from infection."},
-    
+                  "Remedies":"Apply a fungicide spray containing propiconazole, myclobutanil, or flutriafol during the growing season to protect the fruit and leaves from infection.",
+    		"Fertilizer":["propiconazole":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iffcobazar.in%2Fen%2Fproduct%2Fpikapika-propiconazole-25-ec&psig=AOvVaw1insw9LQlr77VlhI1zlkLa&ust=1676827521526000&source=images&cd=vfe&ved=0CBAQjhxqFwoTCLCUj8vLn_0CFQAAAAAdAAAAABAE"]},	
     
     "Apple_Black_Rot":{"Causes":["Apple Black Rot is a fungal disease caused by Botryosphaeria obtusa."," It usually appears in late summer or early fall when the weather is warm and humid. The fungus infects the fruit, leaves, and stems of apple trees."],
                   "Prevention":["Pruning - Remove any infected wood as soon as possible to prevent the disease from spreading.","Sanitation - Clean up fallen leaves and fruit from the ground as they can harbor the fungus.",
@@ -136,17 +136,134 @@
     "Pepper_bell_Bacteria_spot":{"Causes":"Pepper bell bacterial spot is caused by a bacterium called Xanthomonas campestris pv. vesicatoria. The bacteria can survive in plant debris and can be spread by rain, wind, and insects.",
                                  "Prevention":["Preventing bacterial spot in pepper plants involves good sanitation practices, such as removing and destroying infected plant material.", 
                                 "Crop rotation can also be helpful in reducing the build-up of bacteria in the soil."],
-                                 "Remedies":"Copper-based fungicides and bactericides are commonly used to control bacterial spot in pepper plants. Streptomycin and oxytetracycline are also effective antibiotics for controlling the disease. It is important to rotate the use of pesticides to avoid the development of resistant strains of bacteria."}
+                                 "Remedies":"Copper-based fungicides and bactericides are commonly used to control bacterial spot in pepper plants. Streptomycin and oxytetracycline are also effective antibiotics for controlling the disease. It is important to rotate the use of pesticides to avoid the development of resistant strains of bacteria."},
+
+
+
+
+
+
+
+
+
+	"tomato_yellow_leaf_curl_virus": {
+		"Causes": ["Tomato Yellow Leaf Curl Virus (TYLCV) is caused by a group of viruses transmitted by the whitefly insect."],
+		"Prevention": ["Control whitefly populations through the use of sticky traps or insecticides.", "Plant resistant varieties, as some tomato cultivars have been bred to be resistant to TYLCV."],
+		"Remedies": ["Insecticides can be used to control whitefly populations, but care should be taken to avoid harming beneficial insects such as bees. In addition, regular scouting for early signs of infection can help to prevent the spread of the virus. Infected plants should be removed and disposed of immediately."],
+		"Fertilizer": {
+			"copper-based fungicides": "https: //kushwahaagriseeds.com/product/blue-copper-fungicide-copper-oxychloride/?srsltid=Ad5pg_EfLOKyekAv1hPbeWWQQNnm5_a0q39UYJ8_2_EPM47zbkoLhldxjUk"
+		}
+	},
+
+	"tomato_mosaic_virus": {
+		"Causes": ["Tomato mosaic virus is caused by the Tobacco mosaic virus (TMV) which can be transmitted by contact with infected plant debris, through contaminated tools, or by insects such as aphids."],
+		"Prevention": ["The best way to prevent the spread of the virus is to avoid contact with infected plants or debris.", "Ensure that you clean your gardening tools thoroughly before and after use, and practice good hygiene when handling plants."],
+		"Remedies": ["There are currently no effective chemical controls for TMV.The best way to manage the disease is to remove infected plants immediately and dispose of them properly to prevent the virus from spreading."],
+		"Fertilizer": {
+			"copper-based fungicides": "https: //kushwahaagriseeds.com/product/blue-copper-fungicide-copper-oxychloride/?srsltid=Ad5pg_EfLOKyekAv1hPbeWWQQNnm5_a0q39UYJ8_2_EPM47zbkoLhldxjUk"
+		}
+	},
+
+	"tomato_septoria_leaf_spot": {
+		"Causes": ["Septoria leaf spot is caused by the fungus Septoria lycopersici.The fungus can overwinter in infected plant debris and soil."],
+		"Prevention": ["Use certified disease-free seeds, avoid overhead watering, and practice good garden sanitation."],
+		"Remedies": ["Fungicides like chlorothalonil and copper-based fungicides can be used to treat septoria leaf spot in tomatoes."],
+		"Fertilizer": {
+			"copper-based fungicides": "https: //kushwahaagriseeds.com/product/blue-copper-fungicide-copper-oxychloride/?srsltid=Ad5pg_EfLOKyekAv1hPbeWWQQNnm5_a0q39UYJ8_2_EPM47zbkoLhldxjUk"
+		}
+	},
+
+	"tomato_leaf_mold": {
+		"Causes": ["Leaf mold is caused by the fungus Fulvia fulva.The fungus thrives in warm and humid conditions."],
+		"Prevention": ["Provide adequate air circulation around plants, avoid overhead watering, and keep the plants free from damage caused by insects and other animals."],
+		"Remedies": ["Fungicides like chlorothalonil, copper-based fungicides, and azoxystrobin can be used to treat leaf mold in tomatoes."],
+		"Fertilizer": {
+			"copper-based fungicides": " https: //kushwahaagriseeds.com/product/blue-copper-fungicide-copper-oxychloride/?srsltid=Ad5pg_EfLOKyekAv1hPbeWWQQNnm5_a0q39UYJ8_2_EPM47zbkoLhldxjUk"
+		}
+	},
+
+	"tomato_late_blight": {
+		"Causes": ["Late blight is caused by the oomycete Phytophthora infestans.It can spread rapidly and cause significant damage to the tomato plant."],
+		"Prevention": ["Use certified disease-free seeds, avoid working in the garden when it’s wet, keep the plants free from damage caused by insects and other animals."],
+		"Remedies": ["Fungicides like chlorothalonil, mancozeb, and copper-based fungicides can be used to treat late blight in tomatoes. Additionally, cultural practices like removing infected plants and avoiding overhead watering can also be helpful."],
+		"Fertilizer": {
+			"copper-based fungicides": " https: //kushwahaagriseeds.com/product/blue-copper-fungicide-copper-oxychloride/?srsltid=Ad5pg_EfLOKyekAv1hPbeWWQQNnm5_a0q39UYJ8_2_EPM47zbkoLhldxjUk"
+		}
+	},
+
+	"tomato_early_blight": {
+		"Causes": ["Early blight is caused by the fungus Alternaria solani.The fungus can survive in soil and plant debris for up to two years."],
+		"Prevention": ["Use certified disease-free seeds, rotate crops, practice good garden sanitation, and avoid overhead watering."],
+		"Remedies": ["Fungicides like chlorothalonil and copper-based fungicides can be used to treat early blight in tomatoes."],
+		"Fertilizer": {
+			"copper-based fungicides": " https: //kushwahaagriseeds.com/product/blue-copper-fungicide-copper-oxychloride/?srsltid=Ad5pg_EfLOKyekAv1hPbeWWQQNnm5_a0q39UYJ8_2_EPM47zbkoLhldxjUk"
+		}
+	},
+
+	"tomato_bacterial_spot": {
+		"Cause": ["Bacterial spot is caused by the bacterium Xanthomonas campestris pv. vesicatoria.The bacteria can be introduced into the tomato plant through wounds caused by insects, cultivation or environmental factors like wind, water and soil."],
+
+		"Prevention": ["Use certified disease-free seeds, avoid working in the garden when it’s wet, use drip irrigation instead of overhead watering, and keep the plants free from damage caused by insects and other animals."],
+		"Remedies": ["Copper-based fungicides like Bordeaux mixture or copper hydroxide can be used to treat bacterial spot in tomatoes. Antibiotics such as streptomycin and oxytetracycline can also be used as a preventive measure."],
+		"Fertilizer": {
+			"copper-based fungicides": " https: //kushwahaagriseeds.com/product/blue-copper-fungicide-copper-oxychloride/?srsltid=Ad5pg_EfLOKyekAv1hPbeWWQQNnm5_a0q39UYJ8_2_EPM47zbkoLhldxjUk"
+		}
+	},
+
+	"tomato_target_spot": {
+		"Causes": ["Target spot is caused by the fungus Corynespora cassiicola. The fungus thrives in warm and humid conditions."],
+
+		"Prevention": ["Use certified disease-free seeds, avoid overhead watering, and provide adequate air circulation around plants."],
+		"Remedies": ["Fungicides like chlorothalonil, copper-based fungicides, and azoxystrobin can be used to treat target spot in tomatoes."],
+		"Fertilizer": {
+			"copper-based fungicides": " https: //kushwahaagriseeds.com/product/blue-copper-fungicide-copper-oxychloride/?srsltid=Ad5pg_EfLOKyekAv1hPbeWWQQNnm5_a0q39UYJ8_2_EPM47zbkoLhldxjUk"
+		}
+	},
+
+	"tomato_spider_mite_leaf": {
+		"Causes": ["Spider mites are tiny arachnids that feed on tomato leaves. They can be carried by wind, animals, or human activity."],
+		"Prevention": ["Provide adequate air circulation around plants, avoid using insecticides that kill beneficial insects, and keep the plants free from damage caused by insects and other animals."],
+		"Remedies": ["Provide adequate air circulation around plants, avoid using insecticides that kill beneficial insects, and keep the plants free from damage caused by insects and other animals."],
+		"Fertilizer": {
+			"copper-based fungicides": "https: //kushwahaagriseeds.com/product/blue-copper-fungicide-copper-oxychloride/?srsltid=Ad5pg_EfLOKyekAv1hPbeWWQQNnm5_a0q39UYJ8_2_EPM47zbkoLhldxjUk"
+		}
+	},
+
+
+
+	"strawberry_leaf_scortch": {
+		"Causes": ["Infection from the pathogen Xylella fastidiosa that enters the plant through the roots or wounds.", "Poor soil drainage and over-watering", "which provide favorable conditions for the fungus to thrive", "Use of infected plant material for propagation."],
+		"Prevention": ["Plant resistant varieties of strawberries.", "Practice crop rotation to avoid planting strawberries in the same area year after year.", "Use clean,disease-free planting material.", "Ensure good soil drainage and avoid over-watering", "Prune infected leaves and destroy them immediately."],
+		"Remedies": ["Apply copper-based fungicides, such as Bordeaux mixture, to control the spread of the disease.", "Use systemic fungicides, such as phosphorous acid, that can be applied as a soil drench or foliar spray.", "Apply bactericides, such as streptomycin, to protect against bacterial infection.", "Consult a professional for recommendations on the most effective pesticide treatment for your specific situation."],
+		"Fertilizer": {
+			"bordeaux mixture": "https://www.amazon.in/s/?ie=UTF8&keywords=bordeaux+mixture+fungicide&index=lawngarden&tag=msndeskstdin-21&ref=pd_sl_3h1ek7tjk4_b&adgrpid=1320515071610791&hv"
+		}
+	},
+
+	"squash_powdery_mildew": {
+		"Causes": ["Squash Powdery Mildew is caused by the fungus Podosphaera xanthii. The fungus thrives in warm and humid conditions."],
+		"Prevention": ["Plant Resistant Varieties: Choose squash varieties that are resistant to Powdery Mildew.", "Proper Spacing: Plant squash far apart to promote good air circulation.", "Watering: Water the soil, not the leaves. Avoid overhead watering.", "Good Crop Hygiene: Remove plant debris after harvest and destroy any infected plants."],
+		"Remedies": ["Potassium Bicarbonate: Apply as a foliar spray at the first sign of symptoms and repeat every 7-10 days until harvest.", "Sulfur: Apply as a foliar spray at the first sign of symptoms and repeat every 7-10 days until harvest."]
+	},
+
+	"potato_late_blight": {
+		"Causes": ["Potato Late Blight is caused by the fungus Phytophthora infestans. The fungus can survive in soil and plant debris for up to 4 years."],
+		"Prevention": ["Crop Rotation: Rotate potato crops with other crops such as grains or legumes. This reduces the buildup of fungal spores in the soil.", "Plant Resistant Varieties: Choose potato varieties that are resistant to Late Blight.", "Fungicide Application: Apply fungicides before symptoms appear, and follow the recommended application rate and timing.", "Maintain Good Crop Hygiene: Remove plant debris after harvest and destroy any infected plants."],
+		"Remedies": ["Chlorothalonil: Apply at the first sign of symptoms and repeat every 7-10 days until harvest.", "Mancozeb: Apply at the first sign of symptoms and repeat every 7-10 days until harvest."],
+		"Fertilizer": {
+			"Chlorothalonil": "https://agribegri.com/products/buy-online-value-gold---copper-oxychloride-50---5kg.php",
+			"Mancozeb": "https://www.amazon.in/s/?ie=UTF8&keywords=bordeaux+mixture"
+		}
+	},
+
+	"potato_early_blight": {
+		"Cause": ["Potato Early Blight is caused by the fungus Alternaria solani. The fungus can survive in plant debris and soil for up to two years, making it difficult to control."],
+		"Prevention": ["Crop Rotation: Rotate potato crops with other crops such as grains or legumes. This reduces the buildup of fungal spores in the soil.", "Plant Resistant Varieties: Choose potato varieties that are resistant to Early Blight.", "Fungicide Application: Apply fungicides before symptoms appear, and follow the recommended application rate and timing.", "Maintain Good Crop Hygiene: Remove plant debris after harvest and destroy any infected plants."],
+		"Remedies": ["Chlorothalonil: Apply at the first sign of symptoms and repeat every 7-10 days until harvest.", "Mancozeb: Apply at the first sign of symptoms and repeat every 7-10 days until harvest."]
+	}
+},
     
 
-
-
-
-
-
-
-
-     
 
 
 }
