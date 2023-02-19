@@ -86,7 +86,7 @@
 		}
 	},
 	"Tomato___Bacterial_spot": {
-		"Cause": [
+		"Causes": [
 			"Bacterial spot is caused by the bacterium Xanthomonas campestris pv. vesicatoria.The bacteria can be introduced into the tomato plant through wounds caused by insects, cultivation or environmental factors like wind, water and soil."
 		],
 		"Prevention": [
@@ -186,7 +186,7 @@
 		}
 	},
 	"Potato___Early_blight": {
-		"Cause": [
+		"Causes": [
 			"Potato Early Blight is caused by the fungus Alternaria solani. The fungus can survive in plant debris and soil for up to two years, making it difficult to control."
 		],
 		"Prevention": [
