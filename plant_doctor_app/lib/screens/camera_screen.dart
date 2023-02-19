@@ -4,8 +4,8 @@ import 'package:camera/camera.dart';
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:plant_doctor_app/common/image_picker.dart';
+import 'package:plant_doctor_app/providers/disease_provider.dart';
 
-import '../api/request.dart';
 import 'image_preview.dart';
 
 enum Camera { backCamera, frontCamera }
@@ -83,7 +83,7 @@ class _CameraScreenState extends State<CameraScreen> {
         ),
       );
 
-      DiseaseDetails.detectDisease(imagePath).then((value) {
+      DiseaseProvider.detectDisease(imagePath).then((value) {
         log("value : $value");
       });
     } catch (e) {
