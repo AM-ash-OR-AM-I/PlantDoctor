@@ -100,6 +100,8 @@ model2.load_state_dict(state_dict=model_dict2)
 logging.info("models loaded")
 with open("labels.json", "rb") as f:
     labels = pickle.load(f)
+model2.eval()
+
 
 transform = transforms.Compose([
     transforms.Resize((256, 256)),

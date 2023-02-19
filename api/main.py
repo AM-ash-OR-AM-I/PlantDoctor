@@ -16,6 +16,5 @@ def make_prediction():
     results = predict(image)
     return jsonify(output1=results[0], output2=results[1])
 
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8001)
