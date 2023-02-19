@@ -44,6 +44,44 @@
                            "Remedies":["Copper-based fungicides like Bordeaux mixture or copper hydroxide can be used to treat bacterial spot in tomatoes. Antibiotics such as streptomycin and oxytetracycline can also be used as a preventive measure."]
                            }
 
+"tomato_target_spot":{"Causes":["Target spot is caused by the fungus Corynespora cassiicola. The fungus thrives in warm and humid conditions."]
+
+				"Prevention":["Use certified disease-free seeds, avoid overhead watering, and provide adequate air circulation around plants."]
+				"Remedies":["Fungicides like chlorothalonil, copper-based fungicides, and azoxystrobin can be used to treat target spot in tomatoes."]
+				}
+
+ "tomato_spider_mite_leaf":{"Causes":["Spider mites are tiny arachnids that feed on tomato leaves. They can be carried by wind, animals, or human activity."]
+                            "Prevention":["Provide adequate air circulation around plants, avoid using insecticides that kill beneficial insects, and keep the plants free from damage caused by insects and other animals."]
+				    "Remedies":["Provide adequate air circulation around plants, avoid using insecticides that kill beneficial insects, and keep the plants free from damage caused by insects and other animals."]
+                             }
+
+
+
+ "strawberry_leaf_scortch":{"Causes":["Infection from the pathogen Xylella fastidiosa that enters the plant through the roots or wounds.","Poor soil drainage and over-watering","which provide favorable conditions for the fungus to thrive","Use of infected plant material for propagation."]
+                             "Prevention":["Plant resistant varieties of strawberries.","Practice crop rotation to avoid planting strawberries in the same area year after year.","Use clean,disease-free planting material.","Ensure good soil drainage and avoid over-watering","Prune infected leaves and destroy them immediately."]
+                             "Remedies":["Apply copper-based fungicides, such as Bordeaux mixture, to control the spread of the disease.","Use systemic fungicides, such as phosphorous acid, that can be applied as a soil drench or foliar spray.","Apply bactericides, such as streptomycin, to protect against bacterial infection.","Consult a professional for recommendations on the most effective pesticide treatment for your specific situation."]
+						}
+
+ "squash_powdery_mildew":{"Causes":["Squash Powdery Mildew is caused by the fungus Podosphaera xanthii. The fungus thrives in warm and humid conditions."]
+                            "Prevention":["Plant Resistant Varieties: Choose squash varieties that are resistant to Powdery Mildew.","Proper Spacing: Plant squash far apart to promote good air circulation.","Watering: Water the soil, not the leaves. Avoid overhead watering.","Good Crop Hygiene: Remove plant debris after harvest and destroy any infected plants."]
+                             "Remedies":["Potassium Bicarbonate: Apply as a foliar spray at the first sign of symptoms and repeat every 7-10 days until harvest.","Sulfur: Apply as a foliar spray at the first sign of symptoms and repeat every 7-10 days until harvest."]
+                              }
+
+"potato_late_blight":{"Causes":["Potato Late Blight is caused by the fungus Phytophthora infestans. The fungus can survive in soil and plant debris for up to 4 years."]
+                         "Prevention":["Crop Rotation: Rotate potato crops with other crops such as grains or legumes. This reduces the buildup of fungal spores in the soil.","Plant Resistant Varieties: Choose potato varieties that are resistant to Late Blight.","Fungicide Application: Apply fungicides before symptoms appear, and follow the recommended application rate and timing.","Maintain Good Crop Hygiene: Remove plant debris after harvest and destroy any infected plants."]
+				"Remedies":["Chlorothalonil: Apply at the first sign of symptoms and repeat every 7-10 days until harvest.","Mancozeb: Apply at the first sign of symptoms and repeat every 7-10 days until harvest."]
+						}
+
+ "potato_early_blight":{"Cause":["Potato Early Blight is caused by the fungus Alternaria solani. The fungus can survive in plant debris and soil for up to two years, making it difficult to control."]
+                        "Prevention":["Crop Rotation: Rotate potato crops with other crops such as grains or legumes. This reduces the buildup of fungal spores in the soil.","Plant Resistant Varieties: Choose potato varieties that are resistant to Early Blight.","Fungicide Application: Apply fungicides before symptoms appear, and follow the recommended application rate and timing.","Maintain Good Crop Hygiene: Remove plant debris after harvest and destroy any infected plants."]
+				"Remedies":["Chlorothalonil: Apply at the first sign of symptoms and repeat every 7-10 days until harvest.","Mancozeb: Apply at the first sign of symptoms and repeat every 7-10 days until harvest."]
+					}
+
+
+
+
+
+
 
 
      
