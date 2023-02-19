@@ -16,4 +16,10 @@
 				"Prevention":["Control whitefly populations through the use of sticky traps or insecticides.","Plant resistant varieties, as some tomato cultivars have been bred to be resistant to TYLCV."]
                         "Remedies":["Insecticides can be used to control whitefly populations, but care should be taken to avoid harming beneficial insects such as bees. In addition, regular scouting for early signs of infection can help to prevent the spread of the virus. Infected plants should be removed and disposed of immediately."]
 					}
+    "tomato_mosaic_virus":{"Causes":["Tomato mosaic virus is caused by the Tobacco mosaic virus (TMV) which can be transmitted by contact with infected plant debris, through contaminated tools, or by insects such as aphids."]
+				"Prevention":["The best way to prevent the spread of the virus is to avoid contact with infected plants or debris.","Ensure that you clean your gardening tools thoroughly before and after use, and practice good hygiene when handling plants."]
+				"Remedies":["There are currently no effective chemical controls for TMV.The best way to manage the disease is to remove infected plants immediately and dispose of them properly to prevent the virus from spreading."]
+				}
+
+
 }
