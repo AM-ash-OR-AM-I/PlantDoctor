@@ -20,6 +20,33 @@
 				"Prevention":["The best way to prevent the spread of the virus is to avoid contact with infected plants or debris.","Ensure that you clean your gardening tools thoroughly before and after use, and practice good hygiene when handling plants."]
 				"Remedies":["There are currently no effective chemical controls for TMV.The best way to manage the disease is to remove infected plants immediately and dispose of them properly to prevent the virus from spreading."]
 				}
+"tomato_septoria_leaf_spot":{"Causes":["Septoria leaf spot is caused by the fungus Septoria lycopersici.The fungus can overwinter in infected plant debris and soil."]
+					 "Prevention":["Use certified disease-free seeds, avoid overhead watering, and practice good garden sanitation."]
+                               "Remedies":["Fungicides like chlorothalonil and copper-based fungicides can be used to treat septoria leaf spot in tomatoes."]
+						}
+
+ "tomato_leaf_mold":{"Causes":["Leaf mold is caused by the fungus Fulvia fulva.The fungus thrives in warm and humid conditions."]
+				"Prevention":["Provide adequate air circulation around plants, avoid overhead watering, and keep the plants free from damage caused by insects and other animals."]
+                      "Remedies":["Fungicides like chlorothalonil, copper-based fungicides, and azoxystrobin can be used to treat leaf mold in tomatoes."]
+				}
+
+ "tomato_late_blight":{"Causes":["Late blight is caused by the oomycete Phytophthora infestans.It can spread rapidly and cause significant damage to the tomato plant."]
+				 "Prevention":["Use certified disease-free seeds, avoid working in the garden when it’s wet, keep the plants free from damage caused by insects and other animals."]
+                       "Remedies":["Fungicides like chlorothalonil, mancozeb, and copper-based fungicides can be used to treat late blight in tomatoes. Additionally, cultural practices like removing infected plants and avoiding overhead watering can also be helpful."]
+                        }
+
+ "tomato_early_blight":{"Causes":["Early blight is caused by the fungus Alternaria solani.The fungus can survive in soil and plant debris for up to two years."]
+                          "Prevention":["Use certified disease-free seeds, rotate crops, practice good garden sanitation, and avoid overhead watering."]
+				    "Remedies":["Fungicides like chlorothalonil and copper-based fungicides can be used to treat early blight in tomatoes."]
+                           }
+ "tomato_bacterial_spot":{"Cause":["Bacterial spot is caused by the bacterium Xanthomonas campestris pv. vesicatoria.The bacteria can be introduced into the tomato plant through wounds caused by insects, cultivation or environmental factors like wind, water and soil."]
+                           "Prevention":["Use certified disease-free seeds, avoid working in the garden when it’s wet, use drip irrigation instead of overhead watering, and keep the plants free from damage caused by insects and other animals."]
+                           "Remedies":["Copper-based fungicides like Bordeaux mixture or copper hydroxide can be used to treat bacterial spot in tomatoes. Antibiotics such as streptomycin and oxytetracycline can also be used as a preventive measure."]
+                           }
+
+
+
+     
 
 
 }
