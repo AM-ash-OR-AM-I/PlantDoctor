@@ -134,11 +134,13 @@ class ResNet9(nn.Module):
 
 logging.info("Loading models")
 
-model_dict1 = torch.load("model.pth")
-model_dict2 = torch.load("plant-disease-model.pth", map_location=torch.device("cpu"))
 
-model1 = Network()
-model1.load_state_dict(state_dict=model_dict1)
+# model_dict1 = torch.load('model.pth')
+model_dict2 = torch.load('plant-disease-model.pth', map_location=torch.device('cpu'))
+
+
+# model1 = Network()
+# model1.load_state_dict(state_dict=model_dict1)
 
 model2 = ResNet9(3, 38)
 model2.load_state_dict(state_dict=model_dict2)
@@ -158,13 +160,12 @@ transform = transforms.Compose(
 def predict(image: Image):
     image = transform(image)
     image = image.unsqueeze(0)
-    output1 = model1.forward(image)
+    # output1 = model1.forward(image)
     output2 = model2.forward(image)
-    _, pred1 = torch.max(output1, 1)
+    # _, pred1 = torch.max(output1, 1)
     _, pred2 = torch.max(output2, 1)
-
-    label = list(filter(lambda _id: labels[_id] == pred1, labels))[0]
-    return label, class_dict[pred2[0].item()]
+    # label = list(filter(lambda _id: labels[_id] == pred1, labels))[0]
+    return class_dict[pred2[0].item()]
 
 
 if __name__ == "__main__":

@@ -38,13 +38,14 @@ dependencies:
   image_picker: ^0.8.6+2
   flutter_neumorphic: ^3.2.0
   file_picker: ^5.2.5
+  url_launcher: ^6.1.9
   
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  url_launcher: ^6.1.9
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.11.0
   flutter_test:
     sdk: flutter
 
@@ -54,7 +55,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
-
+flutter_icons:
+    android: "launcher_icon"
+    image_path: "assets/icon/icon.jpeg"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -67,8 +70,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/fertilizers_data.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

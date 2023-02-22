@@ -1,6 +1,7 @@
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:plant_doctor_app/common/image_picker.dart';
 import 'package:plant_doctor_app/providers/disease_provider.dart';
+import 'package:plant_doctor_app/screens/feedback_screen.dart';
 import 'package:provider/provider.dart';
 
 import '../components/menu_item.dart';
@@ -140,7 +141,13 @@ class MyHomePage extends StatelessWidget {
           MenuItem(
               text: "Feedback",
               icon: Icons.question_answer_rounded,
-              onPressed: () {}),
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const FeedbackScreen(),
+                  ),
+                );
+              }),
         ],
       ),
     );

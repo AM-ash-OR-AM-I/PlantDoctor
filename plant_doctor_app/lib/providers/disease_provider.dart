@@ -12,7 +12,7 @@ class DiseaseProvider with ChangeNotifier {
   static const offlineServer = "http://192.168.5.1/";
 
   static String currentServer = onlineServer;
-  bool _offline = true;
+  bool _offline = false;
 
   bool get offline => _offline;
 

@@ -1,5 +1,6 @@
 import base64
 import io
+import json
 import logging
 from flask import Flask, request, jsonify
 
@@ -8,13 +9,27 @@ app = Flask("plant")
 from PIL import Image
 
 
+with open("data.json", "r") as f:
+    data_json = json.load(f)
+
 @app.post('/')
 def make_prediction():
     image = request.get_json()['image']
     image_data = base64.b64decode(image)
     image = Image.open(io.BytesIO(image_data))
     results = predict(image)
-    return jsonify(output1=results[0], output2=results[1])
+    data = data_json.get(results)
+    if data is None:
+        return jsonify(disease=results)
+    else:
+        return jsonify(
+            disease=results,
+            causes=data.get("Causes"),
+            prevention=data.get("Prevention"),
+            remedies=data.get("Remedies"),
+            fertilizer=data.get("Fertilizer"),
+
+        )
 
 
 if __name__ == '__main__':
