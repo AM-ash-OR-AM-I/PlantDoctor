@@ -10,14 +10,14 @@
 ## Demo 📱
 ![demo](https://github.com/AM-ash-OR-AM-I/PlantDoctor/assets/59698257/9818111c-c3a0-4550-b29e-7912ccfb5730)
 
-## Tech Stack 🧑🏻‍💻
-- Flutter
-- Python (Flask, PyTorch)
-- AWS, Raspberry PI
-
 ## Build/Setup 🛠️
 - Install flutter
 - `git clone https://github.com/AM-ash-OR-AM-I/PlantDoctor.git`
 - cd PlantDoctor
 - `flutter pub get`
 - Start debugging 🚀
+
+## Tech Stack 🧑🏻‍💻
+- Flutter
+- Python (Flask, PyTorch)
+- AWS, Raspberry PI
